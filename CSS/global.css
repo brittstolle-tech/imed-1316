@@ -22,6 +22,5 @@
 --accentColor: #19ae2f;
 
 /* var(--fontFamily) !important; */
---fontFamily: "Montserrat", serif;
-
+--font-family: "Roboto Condensed", sans-serif;
 }
