@@ -28,15 +28,21 @@
 
       <!-- radio buttons -->
       <strong>yes or no?</strong><br />
-      <input type="radio" name="myDecision" id="myRadio-yes" value="yes" required /><label for=""> yes </label><br />
-      <input type="radio" name="myDecision" id="myRadio-no" value="no" /><label for=""> no </label>
+      <input type="radio" name="myDecision" id="myRadio-yes" value="yes" required /><label for="myRadio-yes"> yes </label><br />
+      <input type="radio" name="myDecision" id="myRadio-no" value="no" /><label for="myRadio-no"> no </label>
       <br />
 
       <!-- checkbox -->
       <strong>pick all that apply</strong><br />
-      <input type="checkbox" name="myDecisionCheckbox" id="myCheckbox" value="yes" required /><label for="myCheckbox-yes"> yes</label><br />
+      <input type="checkbox" name="myDecisionCheckbox" id="myCheckbox" value="yes" /><label for="myCheckbox-yes"> yes</label><br />
       <input type="checkbox" name="myDecisionCheckbox" id="myCheckbox" value="no" /><label for="myCheckbox-no"> no </label>
       <br />
+
+      <textarea name="comments" value="comments" style="width: 800px; height: 500px"></textarea>
+
+      <!-- upload filed -->
+
+      <input type="file" name="upload" id="upload" accept=".pdf, .docx" />
 
       <input type="submit" value="submit form" id="submit" />
     </form>
