@@ -77,9 +77,17 @@ p {
 
 
 .lottiefiles {
-    background-color: green;
+    background-color: var(--accentColor);
     padding: 25px;
     color:#ffffff !important;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.lottiefiles h2 {
+    color: #ffffff !important;
+}
+
+.lottiefiles p {
+    color: #ffffff !important;
 }
