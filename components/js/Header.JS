@@ -30,6 +30,15 @@ class Header extends HTMLElement {
               this.openSchedulePopup();
             });
           }
+
+          // Add event listener for Club Fitting button
+          const clubBtn = this.querySelector('#club-fitting-btn');
+          if (clubBtn) {
+            clubBtn.addEventListener('click', (e) => {
+              e.preventDefault();
+              this.openSchedulePopup();
+            });
+          }
         
         })
         .catch(error => {
